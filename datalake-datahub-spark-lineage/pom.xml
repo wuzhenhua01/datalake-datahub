@@ -20,10 +20,6 @@
                             <pattern>org.slf4j</pattern>
                             <shadedPattern>datahub.shaded.org.slf4j</shadedPattern>
                         </relocation>
-                        <relocation>
-                            <pattern>org.apache.log4j</pattern>
-                            <shadedPattern>datahub.shaded.org.apache.log4j</shadedPattern>
-                        </relocation>
                     </relocations>
                 </configuration>
             </plugin>
